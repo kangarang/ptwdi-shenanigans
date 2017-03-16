@@ -25,6 +25,7 @@
 
 [MDN Grammar and Types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types)
 
+[MDN Comparison Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
 
 ## Command Line Interface
 [git tower cheat sheet](https://www.git-tower.com/blog/command-line-cheat-sheet/)
