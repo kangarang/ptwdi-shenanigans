@@ -1,4 +1,4 @@
-## Isaac Cheatsheets
+## Cheatsheets
 [Slack, Keyboard, Text Editors](https://gist.github.com/kangarang/38001de9c04aa102d29ed5221f545c98)
 
 [Command Line Interface](https://gist.github.com/kangarang/c43f6c1e4eee7abf080abb21ea35d361)
@@ -28,7 +28,7 @@
 [MDN Comparison Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
 
 ## Command Line Interface
-[git tower cheat sheet](https://www.git-tower.com/blog/command-line-cheat-sheet/)
+[Git tower cheat sheet](https://www.git-tower.com/blog/command-line-cheat-sheet/)
 
 
 ## Git
