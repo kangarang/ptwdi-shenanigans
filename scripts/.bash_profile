@@ -13,17 +13,17 @@
 
 ## 'ls' lists information about files.
 # By default, show slashes for directories.
-alias ls='gls -F'
+# alias ls='gls -F'
 
 # Enhanced ls, grouping directories and using colors.
-alias lf='gls --color -h --group-directories-first -F'
+# alias lf='gls --color -h --group-directories-first -F'
 
 # Long list format including hidden files and file information.
-alias ll='gls --color -h --group-directories-first -Fla'
+# alias ll='gls --color -h --group-directories-first -Fla'
 
-alias chrome='open -a "Google Chrome"'
-alias subl='open -a "Sublime Text 3"'
-alias atom='open -a "Atom Text Editor"'
+# alias chrome='open -a "Google Chrome"'
+# alias subl='open -a "Sublime Text 3"'
+# alias atom='open -a "Atom Text Editor"'
 
 
 ######################

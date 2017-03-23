@@ -17,6 +17,10 @@
 
 [Loops](https://gist.github.com/kangarang/5de5897d025eedc09d4cf91c5dcccae9)
 
+[This](https://gist.github.com/kangarang/001058d4ae1b5e6603ca96fa7698396f)
+
+[Functions](https://gist.github.com/kangarang/26fa6dd3e868d10a7528e8b349f9a52f)
+
 
 ## JavaScript
 [MDN Getting started with JS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
