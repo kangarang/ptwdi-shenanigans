@@ -52,7 +52,9 @@
 ## JQuery
 
 [Shay Howe](http://learn.shayhowe.com/advanced-html-css/jquery/)
+
 [Khan Academy](https://www.khanacademy.org/computing/computer-programming/html-js-jquery/jquery-intro/a/are-you-ready-to-learn-jquery)
+
 [Codecademy](https://www.codecademy.com/learn/jquery)
 
 
