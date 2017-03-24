@@ -31,6 +31,25 @@
 
 [MDN Comparison Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
 
+[Regex101 - online editor and debugger](https://regex101.com/)
+
+[Rubular RegEx tester](http://rubular.com/)
+
+[W3Schools RegExp Object](https://www.w3schools.com/js/js_regexp.asp)
+
+[RegexOne - learn Regular Expressions](https://regexone.com/lesson/introduction_abcs)
+
+[MDN Events](https://developer.mozilla.org/en-US/docs/Web/Events)
+
+[MDN addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+
+[MDN KeyboardEvent](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent)
+
+[MDN Keypress](https://developer.mozilla.org/en-US/docs/Web/Events/keypress)
+
+[MDN setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)
+
+
 ## Command Line Interface
 [Git tower cheat sheet](https://www.git-tower.com/blog/command-line-cheat-sheet/)
 
@@ -105,6 +124,8 @@
 
 [Colour lovers](http://www.colourlovers.com/palettes/most-loved/all-time/meta)
 
+[Material Palette](https://www.materialpalette.com/)
+
 
 ## Other
 [spectacle app](https://www.spectacleapp.com/)
@@ -112,3 +133,9 @@
 [Chrome extension eye dropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka?hl=en)
 
 [Sublime for mac](https://www.shortcutfoo.com/app/dojos/sublime-text-3-mac)
+
+[Rising Stack Article](https://community.risingstack.com/ive-been-a-web-developer-for-17-years-and-this-is-what-i-learned-daniel-khan/)
+
+[Web Platform bookks](http://www.oreilly.com/web-platform/free/)
+
+[TED Radio Hour](https://itunes.apple.com/us/podcast/open-source-world/id523121474?i=1000355269311&mt=2)
