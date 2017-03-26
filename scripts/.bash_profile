@@ -4,26 +4,28 @@
 # - Bash Ref Manual -- https://www.gnu.org/software/bash/manual/bashref.html
 # - LS Colors -- http://geoff.greer.fm/lscolors/
 # - Bash Colors -- https://gist.github.com/vratiu/9780109#file-bash_aliases-L51
+# - Bash History -- http://jorge.fbarr.net/2011/03/24/making-your-bash-history-more-efficient/
 
-###################################
-#                                 #
-#   Aliases                       #
-#                                 #
-###################################
 
-## 'ls' lists information about files.
-# By default, show slashes for directories.
-# alias ls='gls -F'
+# Increase bash history size
+export HISTSIZE=32768
+export HISTFILESIZE=$HISTSIZE
 
-# Enhanced ls, grouping directories and using colors.
-# alias lf='gls --color -h --group-directories-first -F'
 
-# Long list format including hidden files and file information.
-# alias ll='gls --color -h --group-directories-first -Fla'
+######################
+#                    #
+#   Aliases          #
+#                    #
+######################
 
-# alias chrome='open -a "Google Chrome"'
-# alias subl='open -a "Sublime Text 3"'
-# alias atom='open -a "Atom Text Editor"'
+# executing an alias in terminal will execute its respective commands
+
+# open apps
+alias chrome='open -a "Google Chrome"'
+alias subl='open -a "Sublime Text 3"'
+
+# reload the shell
+alias reload="clear; source ~/.bash_profile"
 
 
 ######################
@@ -31,6 +33,11 @@
 #   Colors           #
 #                    #
 ######################
+
+# Add colors to ls (mac only)
+export CLICOLOR=1
+export LSCOLORS=exfxcxdxbxegedabagacad
+export LS_COLORS="di=34;40:ln=35;40:so=32;40:pi=33;40:ex=31;40:bd=34;46:cd=34;43:su=0;41:sg=0;46:tw=0;42:ow=0;43:"
 
 # Reset text
 RESET="\033[0m"
@@ -64,7 +71,7 @@ BWHITE="\033[1;37m"
 #                                                          #
 ############################################################
 
-PS1="\n\n\[${GREEN}\]\u "           # 2 new lines, user
+PS1="\n\n\[${GREEN}\]\u "           # 2 new lines of bash, user
 PS1+="\[${RESET}\]in ${CYAN}\w"     # in working directory
 PS1+="\$(prompt_git)"               # git information
 PS1+="\n\[${RESET}\]\$ "            # new line, $
