@@ -7,15 +7,15 @@
 
 
 // 1
-// build a function that logs the variable `logThis` to the console 
+// build a function that logs the variable `logThis` to the console
 
-function logAString() {
+function logToConsole() {
 	var logThis = "Hello, world!"
 	// enter code here
 
 };
 
-logAString();
+logToConsole();
 
 
 
@@ -153,7 +153,7 @@ isCharacterAVowel('f');
 
 function summArr(arr) {
 	// enter code here
-	
+
 };
 
 summArr([1, 2, 3, 4]);
@@ -180,7 +180,7 @@ multiplyArr([1, 2, 3, 4]);
 
 function numberOfArguments() {
 	// enter code here
-	
+
 };
 
 numberOfArguments(1, 'a', 3, 'd', 'f');
@@ -222,7 +222,7 @@ reverseString('Isaac Kang');
 
 function findLongestWord(arr) {
 	// enter code here
-	
+
 };
 
 
@@ -263,8 +263,28 @@ arrayReverser(["C", "O", "D", "Y"]);
 
 function maxValue(arr) {
 	// enter code here
-	
+
 };
 
 maxValue([2, 6, 4, 9, 1]);
 
+
+
+
+
+
+
+
+// bonus
+// build a program that creates a deck of 52 cards and 2 players
+// the deck of cards should have
+// 4 suits (D, C, H, S)
+// and values (A, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K)
+// "shuffle" the deck and deal 2 cards (1 to each player)
+// The player with the higher card wins. Change the DOM using the winner variable
+// if you can get this far, add some more rules!
+
+
+// enter code here
+var winner = document.querySelector("#winner")
+// enter code here
