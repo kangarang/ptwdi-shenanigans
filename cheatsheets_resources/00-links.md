@@ -49,6 +49,9 @@
 
 [MDN setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)
 
+[Article about asynchronous JS (with VISUALS!)](http://www.sohamkamani.com/blog/2016/03/14/wrapping-your-head-around-async-programming/)
+
+
 ## JQuery
 
 [Shay Howe](http://learn.shayhowe.com/advanced-html-css/jquery/)
