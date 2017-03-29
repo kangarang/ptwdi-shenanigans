@@ -12,11 +12,10 @@
 function logToConsole() {
 	var logThis = "Hello, world!"
 	// enter code here
-
+	// console.log(logThis);
 };
 
 logToConsole();
-
 
 
 
@@ -34,7 +33,7 @@ function returnSum(x, y) {
 
 returnSum(4, 6);
 
-
+returnSum(2, 5);
 
 
 
@@ -288,3 +287,89 @@ maxValue([2, 6, 4, 9, 1]);
 // enter code here
 var winner = document.querySelector("#winner")
 // enter code here
+
+
+
+
+// this part is for click events
+var two = document.getElementById("two");
+var one = document.getElementById("one");
+
+one.addEventListener('click', function() {
+	// execute this code once the user clicks on
+	// one, aka the element with id="one"
+	console.log("user clicked div one!");
+	console.log(two.innerText);
+	two.innerText = "meg";
+});
+
+
+
+
+
+
+// this part is for keypress events
+var two = document.getElementById("two");
+var one = document.getElementById("one");
+
+window.addEventListener('keypress', function(e) {
+	// execute this code once the user presses a key
+	console.log(e.key);
+	changeText(e.key);
+});
+
+function changeText(param) {
+	console.log("user pressed a key! This is the key! " + param);
+	console.log(two.innerText);
+	two.innerText = param;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+//
+//
+//
+// var name = "isaac"
+//
+// var isaac = 12323;
+//
+// var myObject = {
+// 	kang: isaac
+// }
+//
+// function first() {
+// 	// var waterBottle = "water"
+// 	console.log("first");
+// }
+//
+// function second() {
+// 	// var chair = "chair"
+// 	console.log("second");
+// }
+//
+// second()
+//
+// first()
+// // console.log(myObject);
