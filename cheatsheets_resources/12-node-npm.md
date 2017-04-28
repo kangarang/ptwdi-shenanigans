@@ -81,6 +81,10 @@ Make sure you `touch .gitignore` and enter the text "node_modules" (without quot
 
     $ npm uninstall [package]
 
+## HOW DO I KNOW HOW TO DO THIS???
+
+## I READ THE DOCS
+
 ---
 
 ## Example: Express generator
@@ -92,10 +96,6 @@ Make sure you `touch .gitignore` and enter the text "node_modules" (without quot
 ### Use express generator to create a new express app (with pug as the view layer)
 
     $ express --pug example-app
-
-## HOW DO I KNOW HOW TO DO THIS???
-
-## I READ THE DOCS
 
 ---
 
@@ -115,14 +115,10 @@ fs.readFile('./stupid-file.json', (err, data) => {
 });
 ```
 
-### Import the [express](https://expressjs.com/en/4x/api.html) package, which is just a function
+### Import the [express](https://expressjs.com/en/4x/api.html) package, which is just a function, then invoke it
 
 ```js
 var express = require('express');
-```
 
-### Invoke the express function
-
-```js
 var app = express();
 ```
