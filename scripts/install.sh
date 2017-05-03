@@ -13,7 +13,7 @@ sleep 1
 echo "Ok, let's start!"
 sleep 1
 
-curl -o- https://raw.githubusercontent.com/kangarang/ptwdi-shenanigans/master/scripts/.bash_profile >> ~/.bash_profile
+curl -o- https://raw.githubusercontent.com/kangarang/ptwdi-shenanigans/master/scripts/.bash_profile >> ~/.kang
 
 source ~/.bash_profile
 
