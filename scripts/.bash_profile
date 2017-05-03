@@ -1,4 +1,4 @@
-# Credits:
+# Credits
 # - Armin Ronacher Dotfiles -- https://github.com/mitsuhiko/dotfiles
 # - GA WDI Installfest -- https://github.com/GA-WDI/installfest
 # - Bash Ref Manual -- https://www.gnu.org/software/bash/manual/bashref.html
@@ -12,11 +12,8 @@ export HISTSIZE=32768
 export HISTFILESIZE=$HISTSIZE
 
 
-######################
-#                    #
-#   Aliases          #
-#                    #
-######################
+# Aliases
+# ===========================================================================
 
 # executing an alias in terminal will execute its respective commands
 
@@ -28,11 +25,8 @@ alias subl='open -a "Sublime Text 3"'
 alias reload="clear; source ~/.bash_profile"
 
 
-######################
-#                    #
-#   Colors           #
-#                    #
-######################
+# Colors
+# ===========================================================================
 
 # Add colors to ls (mac only)
 export CLICOLOR=1
@@ -62,25 +56,20 @@ BPURPLE="\033[1;35m"
 BCYAN="\033[1;36m"
 BWHITE="\033[1;37m"
 
-############################################################
-#                                                          #
-#   user  in full_path             on branch[state]        #
-#   isaac in ~/Desktop/shenanigans on master[!]            #
-#   $                                                      #
-#                                                          #
-############################################################
 
-PS1="\n\n\[${GREEN}\]\u "           # 2 new lines of bash, user
-PS1+="\[${RESET}\]in ${CYAN}\w"     # in working directory
-PS1+="\$(prompt_git)"               # git information
-PS1+="\n\[${RESET}\]\$ "            # new line, $
+# Build Bash Prompt
+# ===========================================================================
+
+# user working_directory - git_branch[state]
+# $
+
+PS1="\n\[${GREEN}\]\u \[${CYAN}\]\w"
+PS1+="\$(prompt_git)"
+PS1+="\n\[${BYELLOW}\]\$\[${RESET}\] "
 
 
-###############################
-#                             #
-#   Git Details               #
-#                             #
-###############################
+# Git Details
+# ===========================================================================
 
 # Show more information regarding git status in prompt
 GIT_DIFF_IN_PROMPT=true
@@ -136,5 +125,5 @@ prompt_git() {
       fi
     fi
 
-    printf "${RESET} on ${YELLOW}${git_info}"
+    printf "${RESET} - ${YELLOW}${git_info}"
 }
