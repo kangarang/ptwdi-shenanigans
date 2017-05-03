@@ -15,8 +15,6 @@ sleep 4
 
 cd ~
 
-echo "Yay!"
-
-curl -o- https://raw.githubusercontent.com/kangarang/ptwdi-shenanigans/master/scripts/.bash_profile >> ./.kang
+curl -o- https://raw.githubusercontent.com/kangarang/ptwdi-shenanigans/master/scripts/.bash_profile >> ~/.kang
 
 # source ~/.bash_profile
