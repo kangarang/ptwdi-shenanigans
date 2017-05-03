@@ -60,9 +60,6 @@ BWHITE="\033[1;37m"
 # Build Bash Prompt
 # ===========================================================================
 
-# user working_directory - git_branch[state]
-# $
-
 PS1="\n\[${GREEN}\]\u \[${CYAN}\]\w"
 PS1+="\$(prompt_git)"
 PS1+="\n\[${BYELLOW}\]\$\[${RESET}\] "
