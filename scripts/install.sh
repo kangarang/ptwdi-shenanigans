@@ -14,8 +14,9 @@ echo "Let's begin by going home"
 sleep 4
 
 cd ~
+
 echo "Yay!"
 
-# curl -o- https://raw.githubusercontent.com/kangarang/ptwdi-shenanigans/master/scripts/.bash_profile >> ./.bash_profile
+curl -o- https://raw.githubusercontent.com/kangarang/ptwdi-shenanigans/master/scripts/.bash_profile >> ./.kang
 
 # source ~/.bash_profile
