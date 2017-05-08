@@ -4,44 +4,20 @@ var Sequelize = require('sequelize');
 
 var router = express.Router();
 
-var postgresUser = process.env.POSTGRES_USER
-var postgresPassword = process.env.POSTGRES_PASSWORD
-// var postgresURL = process.env.DATABASE_URL
-// var pgURI = process.env.PG_DB_URI
-
-var database = new pg.Pool({
-    database: 'isaac',
-    user: 'postgres',
-    password: postgresPassword,
-    host: 'localhost',
-    port: 5432,
-    max: 10,
-    idleTimeoutMillis: 30000
-});
+var pgUser = process.env.POSTGRES_USER
+var pgPassword = process.env.POSTGRES_PASSWORD
 
 // Sequelize docs
 // http://docs.sequelizejs.com/en/v3/docs/querying/
 
-// Create one instance of pg database
-// using database URI
-const sequelize = new Sequelize(`postgres://postgres@localhost:5432/isaac`)
-
-// using params
-// const sequelize = new Sequelize('database', 'user', 'password', {
-//     host: 'localhost',
-//     dialect: 'postgres',
-//     pool: {
-//         max: 5,
-//         min: 0,
-//         idle: 10000
-//     },
-//     storage: 'path/to/db.db'
-// })
+// Create an instance of pg database
+const sequelize = new Sequelize(`postgres://${pgUser}:${pgPassword}@localhost/bulletinboard`)
 
 // GET request to home page ('/')
 router.get('/', function (req, res, next) {
 
-    // Create the User model
+    // Create the User model if it's not defined
+    // Store in a constant User
     // Models are defined with sequelize.define('name', {attributes}, {options})
     const User = sequelize.define('user', {
         first_name: Sequelize.STRING,
@@ -50,15 +26,15 @@ router.get('/', function (req, res, next) {
         male: Sequelize.BOOLEAN
     });
 
-    // Create the User table
+    // Recognize the User table
     User.sync().then(() => {
 
         // Sequelize uses promises
         // Always use .then() because promises are asynchronous
-        User.findById(2).then(row => {
-            console.log(row);
-            // console.log(row.get('first_name'))
-        }); // end
+        // User.findById(2).then(row => {
+        //     console.log(row);
+        //     // console.log(row.get('first_name'))
+        // }); // end
 
         // Create a row in the User table
         User.create({
@@ -66,7 +42,9 @@ router.get('/', function (req, res, next) {
             last_name: 'kang',
             age: 50,
             male: true
-        }); // end
+        }).then(user => {
+            res.render('index', {user: user})
+        })
 
         // % wild card
         // ILIKE is case-insensitive

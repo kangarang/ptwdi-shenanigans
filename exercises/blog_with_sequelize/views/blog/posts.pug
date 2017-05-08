@@ -1,0 +1,5 @@
+.list-group
+	each post in posts
+		a.list-group-item(href=post.url)
+			h4.list-group-item-heading= post.title
+			p.list-group-item-text= date(post.createdAt)

@@ -1,0 +1,9 @@
+extends ../layout
+
+block body
+	if post
+		h1 #{post.title} #[small.secondary-text= date(post.createdAt)]
+		p= post.body
+	else
+		h2 Not Found
+		p That blog post does not exist.

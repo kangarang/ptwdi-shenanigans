@@ -1,0 +1,16 @@
+extends ../layout
+
+block body
+	h1 New Blog Post
+	form(action='/blog', method='post')
+		.form-group
+			label(for='title') Title
+			input.form-control(name='title', autofocus)
+		.form-group
+			label(for='body') Body
+			textarea.form-control(name='body')
+		.form-group
+			label(for='slug') Slug
+			input.form-control(name='slug')
+		.form-group
+			input.btn.btn-primary.btn-lg(type='submit', value='Create')
