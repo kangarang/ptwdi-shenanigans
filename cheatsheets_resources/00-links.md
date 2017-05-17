@@ -23,6 +23,10 @@
 
 [Node/npm](https://gist.github.com/kangarang/4b4be4ede98e630d76d5db302b737cf3)
 
+[Heroku](https://gist.github.com/kangarang/c545624ff475730e1297c941b2e822d8)
+
+[Sequelize](https://gist.github.com/kangarang/d441fed7468457378c41032b61ea9d4c)
+
 
 ## JavaScript
 [MDN Getting started with JS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
