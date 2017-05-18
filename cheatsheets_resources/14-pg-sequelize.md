@@ -15,13 +15,34 @@ Add `export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
 ## Common commands
 
 ```bash
+# create a databse from the command line
+$ createdb [database_name]
+
+# initialize sequelize in the current working directory
 $ sequelize init
 
+# create a model AND migration file for the user entity
 $ sequelize model:create --name User --attributes first_name:string,last_name:string,bio:text
+
+# create a new migration file
 $ sequelize migration:create --name user
 
+# read migrations (ONCE) and populate columns on the tables
 $ sequelize db:migrate
+
+# undo a migration
 $ sequelize db:migrate:undo
+
+# enter the postgres interactive environment, specifically the "awesome_db" database
+$ psql awesome_db
+
+# -- inside postgres interactive environment (database: awesome_db) -- #
+
+# create a database called new_db
+awesome_db=# create database new_db;
+
+# drop a database
+awesome_db=# drop database new_db;
 ```
 
 ---

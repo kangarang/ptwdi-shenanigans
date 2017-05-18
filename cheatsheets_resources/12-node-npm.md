@@ -14,6 +14,12 @@ Every package is different.
 
 ---
 
+## Add this to your `~/.bash_profile` (mac) or `~/.bashrc` (windows / linux)
+
+`export PATH="$PATH:./node_modules/.bin"`
+
+---
+
 ## `package.json`
 
 - metadata about the package / repo / software
