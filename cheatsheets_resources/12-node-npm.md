@@ -14,7 +14,7 @@ Every package is different.
 
 ---
 
-## Add this to your `~/.bash_profile` (mac) or `~/.bashrc` (windows / linux)
+## To enable locally installed npm shell commands (e.g. sequelize-cli and nodemon), add this to your `~/.bash_profile` (mac) or `~/.bashrc` (windows / linux)
 
 `export PATH="$PATH:./node_modules/.bin"`
 
