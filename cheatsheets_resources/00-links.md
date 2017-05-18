@@ -1,31 +1,32 @@
 ## Cheatsheets
-[Slack, Keyboard, Text Editors](https://gist.github.com/kangarang/38001de9c04aa102d29ed5221f545c98)
+
+[Slack, Keyboard, Text Editors](https://github.com/kangarang/ptwdi-shenanigans/blob/master/cheatsheets_resources/01-shenanigans.md)
 
 [Command Line Interface](https://gist.github.com/kangarang/c43f6c1e4eee7abf080abb21ea35d361)
 
-[Flexbox](https://gist.github.com/kangarang/24e1a05759610553cd399c09255d6286)
+[Flexbox](https://github.com/kangarang/ptwdi-shenanigans/blob/master/cheatsheets_resources/03-flex-cheatsheet.md)
 
 [Git](https://gist.github.com/kangarang/c422ef36806ba645a71e5b6ccf1750ee)
 
 [Programming, Debugging](https://gist.github.com/kangarang/51b092974d17a91d2f8583638936bef4)
 
-[Primitives, Operators, Conditionals, Arrays Intro](https://gist.github.com/kangarang/f5ab28f4b3ce84822326ed472e7b95c7)
+[Primitives, Operators, Conditionals, Arrays Intro](https://github.com/kangarang/ptwdi-shenanigans/blob/master/cheatsheets_resources/06-js-reference.md)
 
-[More Operators, Conditionals](https://gist.github.com/kangarang/e45b9a2a99ab4c4f9c7e6e22dfcd2833)
+[More Operators, Conditionals](https://github.com/kangarang/ptwdi-shenanigans/blob/master/cheatsheets_resources/07-operators-conditionals.md)
 
-[Data Structures](https://gist.github.com/kangarang/33eadb183deac05118d5435ed5bbbd3b)
+[Data Structures](https://github.com/kangarang/ptwdi-shenanigans/blob/master/cheatsheets_resources/08-data-structures.md)
 
-[Loops](https://gist.github.com/kangarang/5de5897d025eedc09d4cf91c5dcccae9)
+[Loops](https://github.com/kangarang/ptwdi-shenanigans/blob/master/cheatsheets_resources/09-loops.md)
 
-[This](https://gist.github.com/kangarang/001058d4ae1b5e6603ca96fa7698396f)
+[This](https://github.com/kangarang/ptwdi-shenanigans/blob/master/cheatsheets_resources/10-this.md)
 
-[Functions](https://gist.github.com/kangarang/26fa6dd3e868d10a7528e8b349f9a52f)
+[Functions](https://github.com/kangarang/ptwdi-shenanigans/blob/master/cheatsheets_resources/11-functions.md)
 
-[Node/npm](https://gist.github.com/kangarang/4b4be4ede98e630d76d5db302b737cf3)
+[Node/npm](https://github.com/kangarang/ptwdi-shenanigans/blob/master/cheatsheets_resources/12-node-npm.md)
 
-[Heroku](https://gist.github.com/kangarang/c545624ff475730e1297c941b2e822d8)
+[Heroku](https://github.com/kangarang/ptwdi-shenanigans/blob/master/cheatsheets_resources/13-heroku.md)
 
-[Sequelize](https://gist.github.com/kangarang/d441fed7468457378c41032b61ea9d4c)
+[Sequelize](https://github.com/kangarang/ptwdi-shenanigans/blob/master/cheatsheets_resources/14-pg-sequelize.md)
 
 
 ## JavaScript
@@ -56,6 +57,29 @@
 [MDN setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)
 
 [Article about asynchronous JS (with VISUALS!)](http://www.sohamkamani.com/blog/2016/03/14/wrapping-your-head-around-async-programming/)
+
+[MDN: A re-intro to JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+
+[ES6 YouTube playlist](https://www.youtube.com/playlist?list=PLWKjhJtqVAbljtmmeS0c-CEl2LdE-eR_F)
+
+
+## Node.js
+
+[express-generator](https://expressjs.com/en/starter/generator.html)
+
+
+## Postgres / Sequelize
+
+[postgres double quotes](http://blog.lerner.co.il/quoting-postgresql/)
+
+[Sequelize docs](http://docs.sequelizejs.com/)
+
+
+## Heroku
+
+[heroku cli](https://devcenter.heroku.com/articles/heroku-cli)
+
+[deploying node](https://devcenter.heroku.com/articles/deploying-nodejs)
 
 
 ## JQuery
@@ -89,6 +113,8 @@
 [hostingreviewbox](http://www.hostingreviewbox.com/wp-content/uploads/2016/02/html5-cheat-sheet-1.png)
 
 [HTML-CSS ShayHowe](http://learn.shayhowe.com/html-css/)
+
+[HTML2Pug](http://html2pug.com/)
 
 
 ## Styling
@@ -156,3 +182,5 @@
 [Web Platform bookks](http://www.oreilly.com/web-platform/free/)
 
 [TED Radio Hour](https://itunes.apple.com/us/podcast/open-source-world/id523121474?i=1000355269311&mt=2)
+
+[Code book](https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319)

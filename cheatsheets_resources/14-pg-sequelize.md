@@ -1,10 +1,15 @@
-# Sequelize
+# Postgres & Sequelize
 
 [SEQUELIZE DOCS](http://docs.sequelizejs.com/)
 
 [MIGRATION DOCS](http://docs.sequelizejs.com/manual/tutorial/migrations.html)
 
 [CLI GITHUB](https://github.com/sequelize/cli)
+
+
+## Enable the `psql` shell command (mac users only)
+
+Add `export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"` to your `~/.bash_profile`
 
 
 ## Common commands
@@ -97,4 +102,3 @@ OPTIONS
 ```
 
 ---
-

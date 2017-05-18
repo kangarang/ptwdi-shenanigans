@@ -1,5 +1,5 @@
 // using setTimeout
-var printer = function() {
+var printer = function () {
     console.log(" * ".repeat(counter))
 }
 
@@ -11,9 +11,9 @@ for (var i = 0; i < 10; i++) {
 // using setInterval
 var counter = 10
 
-var printer = function() {
+var printer = function () {
     console.log(" * ".repeat(counter))
-    counter --
+    counter--
     if (counter === 0) {
         clearInterval(timer)
     }
