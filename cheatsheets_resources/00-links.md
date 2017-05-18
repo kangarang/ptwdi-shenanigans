@@ -28,6 +28,8 @@
 
 [Sequelize](https://github.com/kangarang/ptwdi-shenanigans/blob/master/cheatsheets_resources/14-pg-sequelize.md)
 
+[Reddit Saved](https://gist.github.com/kangarang/bdb1a4fd4641427b091bce323942f07b)
+
 
 ## JavaScript
 [MDN Getting started with JS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
