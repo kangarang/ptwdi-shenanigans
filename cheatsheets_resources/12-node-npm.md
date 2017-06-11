@@ -57,7 +57,7 @@ Make sure you `touch .gitignore` and enter the text "node_modules" (without quot
 
 ### Initialize npm in working directory (creates `package.json` and allows you to enter information about your app)
 
-    # npm init
+    $ npm init
 
 ### List all local packages
 
